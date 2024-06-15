@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px 0;
+}
+
+.contenedor{
+    border: 5px solid black;
+    min-height: 500px;
+    max-width: 600px;
+    width: 70vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid #404040;
+    border-radius: 10px;
+}
+.boton{
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.tareas{
+    width: 75%;
+}
+.tarea{
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.iconos{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.check{
+    color: green;
+    cursor: pointer;
+}
+.eliminar{
+    color: #404040;
+    cursor: pointer;
+}
